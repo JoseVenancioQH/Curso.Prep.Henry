@@ -1,0 +1,5 @@
+Variables
+	* Strings tipo de variable o constante de tipo cadena de texto, conformada por una serie de caracteres alfanumericos
+	* Funciones (argumentos, `return`) argunmentos son los valores a utilizar dentro de una funcion, return es el resultado de ejecutar las operaciónes dentro de una función
+	* Declaraciones `if` son sentencias de control que permiten direccionar el resultado de una operación.
+	* Valores booleanos (`true`, `false`) son valores logicos que son interpretados en dos estados dentro de una operación.
