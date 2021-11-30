@@ -213,22 +213,21 @@ function breakStatement(numero) {
 
 
 function continueStatement(numero) {
-  //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
-  //Guardar cada nuevo valor en un array.    
-  //Devolver el array
-  //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
-  //Pista: usá el statement 'continue'
-  // Tu código:
-  var newNumero = numero;
-  var newArray = [];
-  for(var x=1;x<10;x++){       
-      //if(4>=x){continue;}else{newNumero = newNumero+2;}
-      newNumero = newNumero+2;
-      newArray.push(newNumero);
-  }
-  
-  return newArray;
-
+    //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
+    //Guardar cada nuevo valor en un array.    
+    //Devolver el array
+    //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
+    //Pista: usá el statement 'continue'
+    // Tu código:
+    var newNumero = numero;
+    var newArray = [];
+    for(var x=1;x<10;x++){       
+        //if(4>=x){continue;}else{newNumero = newNumero+2;}
+        newNumero = newNumero+2;
+        newArray.push(newNumero);
+    }
+    
+    return newArray;
 }
 
 
